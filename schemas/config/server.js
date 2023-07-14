@@ -28,5 +28,7 @@
   },
   cors: {
     origin: '?string',
+    origins: { array: 'string', required: false },
+    credentials: '?boolean',
   },
 });

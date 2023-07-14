@@ -44,7 +44,9 @@ export interface ServerConfig {
     timeout: number;
   };
   cors?: {
-    origin: string;
+    origin?: string;
+    origins?: string[];
+    credentials?: boolean;
   };
 }
 
